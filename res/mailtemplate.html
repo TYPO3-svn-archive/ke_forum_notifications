@@ -1,0 +1,43 @@
+<html>
+    <head>
+	<title>Notification Mail</title>
+	<style type="text/css">
+	    p {
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 12px;
+	    }
+	    body {
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 12px;
+	    }
+	    h1 {
+		font-size: 15px;
+		font-weight: bold;
+		margin: 20px 0 0 0;
+	    }
+	    h2 {
+		font-size: 14px;
+		font-weight: bold;
+		margin: 10px 0 0 10px;
+	    }
+	    div.posts {
+		margin: 0 0 30px 0;
+		padding: 0;
+	    }
+	    div.postEntry {
+		margin: 0 0 10px 20px;
+	    }
+
+	</style>
+    </head>
+    <body>
+	<p>Hello  ###FIRST_NAME### ###LAST_NAME###,<br /><br />
+	here are the most recent posts from forum "###CONFIG_TITLE###".
+	</p>
+	<div class="posts">###POSTS###</div>
+	<p>You receive this E-Mail because you activated this option in your user record. <br /><br />
+	Greetings,,<br />
+	Your forum team</p>
+	<p><a href="http://www.domain.com">www.domain.com</a></p>
+    </body>
+</html>

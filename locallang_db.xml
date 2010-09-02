@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'ke_forum_notifications'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_keforumnotifications_config">Forum Notification Config</label>
+			<label index="tx_keforumnotifications_config.title">Title</label>
+			<label index="tx_keforumnotifications_config.datapid">Forum Storage PID</label>
+			<label index="tx_keforumnotifications_config.usergroups">Usergroups</label>
+			<label index="tx_keforumnotifications_config.templatefile">HTML Mail Template</label>
+			<label index="tx_keforumnotifications_config.singleviewlink">Single View Link</label>
+			<label index="tx_keforumnotifications_config.sender_mail">Sender (Email)</label>
+			<label index="tx_keforumnotifications_config.sender_name">Sender (Name)</label>
+			<label index="tx_keforumnotifications_config.debug_email">Email for Debugging (oberwrites recipients)</label>
+			<label index="tx_keforumnotifications_log">Forum Notification Log</label>
+			<label index="tx_keforumnotifications_log.forumpost">Forum Post</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_keforumnotifications_config">Forum Benachrichtigungen Konfiguration</label>
+			<label index="tx_keforumnotifications_config.title">Titel</label>
+			<label index="tx_keforumnotifications_config.datapid">Forum Storage PID</label>
+			<label index="tx_keforumnotifications_config.usergroups">Benutzergruppen</label>
+			<label index="tx_keforumnotifications_config.templatefile">HTML Mail Template</label>
+			<label index="tx_keforumnotifications_config.singleviewlink">Link auf Einzelansicht</label>
+			<label index="tx_keforumnotifications_config.sender_mail">Absender: E-Mail Adresse</label>
+			<label index="tx_keforumnotifications_config.sender_name">Absender: Name</label>
+			<label index="tx_keforumnotifications_config.debug_email">Debug-E-Mail (die Empfänger werden überschrieben wenn gesetzt)</label>
+			<label index="tx_keforumnotifications_log">Forum Benachrichtiungen Log</label>
+			<label index="tx_keforumnotifications_log.forumpost">Forumsbeitrag</label>
+		</languageKey>
+	</data>
+</T3locallang>
