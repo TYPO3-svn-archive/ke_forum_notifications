@@ -22,7 +22,6 @@
 *  This copyright notice MUST APPEAR in all copies of the script!
 ***************************************************************/
 
-
 /**
  * @author	Andreas Kiefer (kennziffer.com) <kiefer@kennziffer.com>
  * @package	TYPO3
